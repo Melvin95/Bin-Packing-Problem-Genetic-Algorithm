@@ -24,6 +24,7 @@ Fitness Function
 Selection
 
   The K-Tournament selection was used with k=25. K-Tournament selection is used to decide which chromosomes get to reproduce for the       next generation.
+  
     1. Randomly pick 25 chromosomes from the current population.
     2. From these 25 chromosomes, the most fit chromosome is the one chosen for reproduction, add it to list of parents.
     3. Repeat until the number of parents = population size.
